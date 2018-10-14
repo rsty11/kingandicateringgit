@@ -1,0 +1,67 @@
+
+.column {
+    float: left;
+    padding: 15px;
+
+}
+
+.full {
+  width: 100%;
+    padding: 0px 15px 0px 15px;
+}
+
+.big {
+  width: 60%;
+    padding: 0px 15px 0px 0px;
+}
+
+.middle1{
+    width: 40%;
+    padding: 0px 0px 0px 15px;
+}
+
+.left{
+    width: 50%;
+    padding: 0px 0px 0px 15px;
+}
+
+.right{
+    width: 50%;
+    padding: 0px 15px 0px 0px;
+}
+
+.middle2{
+    width: 30%;
+    padding: 0px 0px 0px 0px;
+}
+.middle3{
+    width: 30%;
+    padding: 0px 15px 0px 0px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    .kinghead {
+    width: auto;
+    padding: 5px;
+    overflow: hidden;
+}
+.kinghead img {
+    margin-right: 15px;
+    float: left;
+}
+.kinghead p {
+    font-size: 16px;
+    color: #5A483A;
+        }
+.kinghead h3 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #5A483A;
+        }
